@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.champ{
+margin: 5px 15px 20px 0;
+text-align: left;
+}
+input[type="button"], input[type="submit"] {
+border: none;
+border-radius: 20px;
+height: 25px;
+}
+input[type="button"]:hover, input[type="submit"]:hover {
+border: solid gray 1px;
+cursor: pointer;
+}
+.header-top {
+    background-color: #f88cd2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.header-top input[type="button"] {
+    background-color: red;
+    color: white;
+    width: 120px;
+}
+.header-top input[type="button"]:focus {
+    background-color: #c30101;
+    outline: none;
+}
+.header-Bottom{
+    background-color: #f1cfe5;
+    padding: 30px 0;
+    text-align: right;
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+}
+
+.Bonjour{
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    margin: 20px 0 0 10px;
+    padding-bottom: 15px;
+}
+.bleuciel{
+    background-color: aqua;
+   
+}
+.roseclair{
+    background-color:#f1cfe5;
+}
+table{
+    margin: 20px auto 50px;
+}
+th, td{
+    width: 180px;
+    border: 1px solid black;
+    height: 35px;
+    text-align: center;
+}
+th{
+    background-color: #f88cd2;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+td {
+    background-color: white;
+}
+#bouton-ajouter-produit {
+    background-color: #00a600;
+    color: white;
+    width: 230px;
+    margin-left: 900px;
+}
+#bouton-ajouter-produit:focus {
+    background-color: #028202;
+    outline: none;
+}
+#form-accueil,
+#form-ajout-uti {
+background-color: white;
+border-radius: 35px;
+margin: 0 20px;
+padding: 15px 30px;
+text-align: center;
+width: 600px;
+margin: 0 auto;
+}
+.ajout{
+ background-color: white;
+border-radius: 35px;
+margin: 0 20px;
+padding: 15px 30px;
+text-align: center;
+width: 600px;
+margin: 0 auto;
+}
+#ajout-article{
+    text-align: center;
+    margin-left: 600px;
+}
+#a{
+    background-color: green;
+    position: absolute;
+    bottom: 0; 
+    right:  0;
+    width: 130px;
+}
+#b{
+    background-color: yellow;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 130px;
+}
+label {
+    font-size: 13px;
+    margin: 0 15px 10px;
+}
+input[type="text"],
+    input[type="password"],input[type="number"] {
+    margin: 5px 0 0 15px;
+    border: solid gray 1px;
+    border-radius: 10px;
+    height: 20px;
+    padding-left: 5px;
+    width: 425px;
+    }
+input[type="text"]:focus,input[type="password"]:focus {
+    outline: none;
+}
+.bouton-accueil-enregistrer {
+    margin: 5px 0 10px;
+    width: 200px;
+    
+}
+.bouton-accueil-enregistrer[type="submit"] {
+    background-color: #f1cfe5;
+    
+}
+.bouton-accueil-enregistrer[type="button"] {
+    background-color: #f88cd2;
+    color: white;
+}
+.bouton-accueil-enregistrer:focus {
+    outline: none;
+    background-color: #add8e6;
+    color: black;
+}
+#bouton-plus-grand {
+    width: 400px;
+}
+#bouton-modifier, #bouton-supprimer {
+    width: 100px;
+}
+#bouton-modifier {
+    background-color: #ffcc33;
+}
+#bouton-modifier:focus {
+    background-color: #ffab33;
+    outline: none;
+}
+#bouton-supprimer {
+    background-color: red;
+    color: white;
+}
+#bouton-supprimer:focus {
+    background-color: #c30101;
+    outline: none;
+}
+    
+       
